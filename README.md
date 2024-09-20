@@ -22,10 +22,12 @@ Cryptify is designed for anyone who values privacy and data security, making enc
 
 ## Steps to Run
 1. Download the zip file and extract.
-2. Start MongoDB Compass and create a database named `yourdatabase`.
-3. Create `users` and `keys` collections in the database.
-4. Run the Python app using the command `python app.py`.
-5. Enter the PEM passphrase as `hello`.
-6. Open the URL and log in.
-7. Generate the key.
-8. Encrypt and decrypt files using the tool.
+2. Create `client_secret.json` file and enter your Google OAuth 2.0 client credentials.
+3. Download the required libraries specified in `requirements.txt`.
+4. Start MongoDB Compass and create a database named `yourdatabase`.
+5. Create `users` and `keys` collections in the database.
+6. Run the Python app using the command `python app.py`.
+7. Enter the PEM passphrase as `hello`.
+8. Open the URL and log in.
+9. Generate the key.
+10. Encrypt and decrypt files using the tool.
